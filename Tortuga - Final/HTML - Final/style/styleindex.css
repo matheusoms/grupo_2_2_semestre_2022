@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+:root {
+
+--azulescuro: #165394;
+--azultommedio: ##3889E0;
+--azulclaro: #59A9FF;
+--amareloescuro:#946E2D;
+--amrelo: #E0A338;
+--azullogin: #72B6FF;
+--azulbotao: #284E51;
+}
+
+html{
+font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+   
+    margin: 0px;
+}
+
+li {
+  list-style:none;
+  padding-left:0;
+    
+}
+
+.liclass{
+  display: inline;
+  margin-right: 10em;
+}
+.menu_li:hover {
+    font-weight: bold;
+    display: inline;
+    margin-right: 10em;
+}
+
+header, footer {
+	width: auto;
+	background: rgba(80,80,80,0.2);
+	line-height: 3em;
+    color: white;
+}	
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 97.7%;
+    height: 86px;
+    background-color: var(--azulclaro);
+    box-shadow: 0 0 10px black;
+    padding: 0 19px;
+}
+
+h5 {
+  display: block;
+  font-size: 0.83em;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  margin: 6px 0px 0px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+buscar{
+    width: 1em;
+    height: 1em
+    
+}
+
+
+.imgmenu {
+    position: relative;
+    margin: 20px;
+    width: 2.1em;
+    height: 2.1em;
+    margin: 1em 5em 0em 0em;
+}
+
+.logomenu{
+    position: relative;
+    margin: 20px;
+    width: 6.9em;
+    height: 5.5em;
+    margin: 1.6em 9em 0em 0em;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style-type: disc;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 82px;
+  margin: 0px;
+}
+
+/* 
+#painel{
+
+  width: 100%;
+  height: 85vh;
+  position: relative;
+  float: left;
+  background-color: var(--azulclaro);
+  margin: 2% 0% 0% 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+} */
+
+#painel {
+  display: flex;
+  margin: 0;
+  margin: 3% 0% 0% 0%;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--azulclaro);
+}
+
+
+    /* TESTE CARD */
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+  border-radius: 20px;
+  box-shadow: 7px 7px 13px 0px rgb(50 50 50 / 22%);
+  /* padding: 0px 5px 3px 0px; */
+  /* margin: 20px;
+  width: 277px;
+  height: 470px; */
+  transition: all 0.3s ease-out;
+  background-color: white;
+  /* margin: 0% 1% 0px 0%; */
+
+  margin: 84px 10px;
+  padding: 0px;
+  /* border-radius: 6px;
+  background-color: white; */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+
+}
+  
+.card p {
+  color: #a3a5ae;
+  font-size: 16px;
+}
+  
+.image {
+  float: right;
+  max-width: 64px;
+  max-height: 64px;
+}
+
+.img_card{
+  width: 100%;
+  height: 29%;
+
+}
+
+.img_class1{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card_description {
+  width: 267px;
+  height: 243px;
+  padding: 0px 10px 3px 10px;
+}
+
+/* Cards que mostra em porcentagem o progresso da aula portugues*/
+
+.card__progress{
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  margin-top: 5px;
+}
+
+
+.area_progress_p {
+  background-image: linear-gradient(to right, #165394 10%, transparent 10%);
+  height: 4px;
+  height: 7px;
+  width: 90%;
+  background-color: #16539459;
+  margin: 10px 4px 3px 8px;
+  padding: 0px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.area_progress_number_p{
+  width: 23px;
+  height: 19px;
+  margin-left: 9px;
+  font-size: 11px;
+  margin: 10px 0px 0px 0px;
+  font-weight: 600;
+  line-height: 1.73;
+  color: #c5d2dc;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+/* Cards que mostra em porcentagem o progresso da aula matematica*/
+
+
+
+.area_progress_m{
+  background-image: linear-gradient(to right, #E0A338 50%, transparent 50%);
+  height: 4px;
+  height: 7px;
+  width: 90%;
+  background-color:#e0a23868;
+  margin: 10px 4px 3px 8px;
+  padding: 0px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.area_progress_number_m{
+  width: 23px;
+  height: 19px;
+  margin-left: 9px;
+  font-size: 11px;
+  margin: 10px 0px 0px 0px;
+  font-weight: 600;
+  line-height: 1.73;
+  color: #d7ba88;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+/* Cards que mostra em porcentagem o progresso da aula historia*/
+
+
+
+
+.area_progress_h{
+  background-image: linear-gradient(to right, #284E51 25%, transparent 25%);
+  height: 4px;
+  height: 7px;
+  width: 90%;
+  background-color: #284e516e ;
+  margin: 10px 4px 3px 8px;
+  padding: 0px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.area_progress_number_h{
+  width: 23px;
+  height: 19px;
+  margin-left: 9px;
+  font-size: 11px;
+  margin: 10px 0px 0px 0px;
+  font-weight: 600;
+  line-height: 1.73;
+  color: #c5d2dc;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+/* Cards que mostra em porcentagem o progresso da aula geografia*/
+
+
+
+
+.area_progress_g{
+  background-image: linear-gradient(to right, #E0A338 15%, transparent 15%);
+  height: 4px;
+  height: 7px;
+  width: 90%;
+  background-color: #e0a2386b ;
+  margin: 10px 4px 3px 8px;
+  padding: 0px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.area_progress_number_g{
+  width: 23px;
+  height: 19px;
+  margin-left: 9px;
+  font-size: 11px;
+  margin: 10px 0px 0px 0px;
+  font-weight: 600;
+  line-height: 1.73;
+  color: #e0a2386b;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+
+/* Cards que mostra em porcentagem o progresso da aula ciências*/
+
+
+
+
+.area_progress_c{
+  background-image: linear-gradient(to right, #7ecba4 80%, transparent 80%);
+  height: 4px;
+  height: 7px;
+  width: 90%;
+  background-color: #6adaa27a ;
+  margin: 10px 4px 3px 8px;
+  padding: 0px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.area_progress_number_c{
+  width: 23px;
+  height: 19px;
+  margin-left: 9px;
+  font-size: 11px;
+  margin: 10px 0px 0px 0px;
+  font-weight: 600;
+  line-height: 1.73;
+  color: #6adaa27a;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+

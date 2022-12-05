@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+    <html>
+
+    <head>
+        <title id="header_title">historias</title>
+        <link rel="stylesheet" type="text/css" href=".\style\player.css">
+    </head>
+
+        <body onload="verify_url()">
+            <header id="home" class="">
+                <nav>
+                    <ul>
+                        <l1><img class = "logomenu" src="img/logotort.png" alt=""></l1>
+                        <l1><img class = "imgmenu" src="img/lupa1.png" alt=""></l1>
+                            <li class="liclass menu_li"><a href="">Aulas+</a></li>
+                            <li class="liclass menu_li"><a href="">Atividade</a></li>
+                            <li class="liclass menu_li"><a href="" >Comunidade</a></li>
+                            <li class="liclass menu_li"><a href="">Material</a></li>
+                        <li><img class= "imgmenu liclass" src="img/perfil.png" alt=""></li>
+                    </ul>
+                </nav>
+            </header>  
+          
+            <div id="painel" >
+                <div class="row">
+                    <div id="menu">
+                        <h2 id ="title"></h2>
+                        <div class="card__progress">
+                            <div class="area_progress_h aria-hidden="true"></div>
+                            <span class="area_progress_number_h" aria-label="Progresso do curso">10%</span>
+                          </div>
+                        <h3>Aula Atual:</h3>
+                        <li id="1" onclick="change_url(this.id)">01 - Conceitos básicos de ortografia</li>
+                        <!-- <h3>Próximas aulas:</h3> -->
+                        <li id="2" onclick="change_url(this.id)"> 02 - teste </l1>
+                        <li id="3" onclick="change_url(this.id)"> 03 - </l1>
+                        <li id="4" onclick="change_url(this.id)"> 04 - </l1>
+                        <li id="5" onclick="change_url(this.id)"> 05 - </l1>
+                        <li id="6" onclick="change_url(this.id)"> 06 - </l1>
+                        <li id="7" onclick="change_url(this.id)"> 07 - </l1>
+                        <li id="8" onclick="change_url(this.id)"> 08 - </l1>
+                        <li id="9" onclick="change_url(this.id)"> 09 - </l1>
+                        <li id="10" onclick="change_url(this.id)"> 10 - </l1><br>
+
+
+                        <button class="button_login">Ir para as atividades</button>
+
+                    </div>
+      
+                    <script src="script/index.js"></script>
+                    <div class="cardplayer"> 
+                      <h3>Português - Intrudução Aula 1</h3>
+                        <div class="cardvideo">
+                            <iframe id="player" class = "img_player" src="https://www.youtube.com/embed/kasUtDtUFrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+        </body>
+
+    </html>

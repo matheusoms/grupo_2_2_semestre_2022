@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+:root {
+
+--azulescuro: #165394;
+--azultommedio: ##3889E0;
+--azulclaro: #59A9FF;
+--amareloescuro:#946E2D;
+--amrelo: #daa03ddc;
+--azullogin: #72B6FF;
+--azulbotao: #284E51;
+}
+
+html{
+font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    min-height: 100vh;
+    /* max-width: 400px; */
+    margin: 0 0;
+    display: flex;
+    background-color: var(--azulclaro);
+
+}
+
+
+#login {
+    display: flex;
+    height: 100vh;
+    width: 300px;
+    background-color: var(--azulescuro);
+    border-radius: 0px 70px 70px 0px;
+    width: 25%;
+    flex-direction: column;
+    align-items: center;
+   
+} 
+h5{
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    margin: 2em 0em 4em 0em;
+}
+
+h4{
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: lighter;
+}
+h1 {
+    display: block;
+    font-size: 2.5em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin: 0em 5px -15px 5px;
+
+}
+
+.card {
+    padding: 0px 94px 0px 81px;
+    margin-top: 15%;
+    
+}
+
+.card-header {
+    padding-bottom: 1px;
+}
+
+.card-logo {
+    padding-bottom: 1px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.card-header2 {
+    padding-bottom: 17px;
+}
+.card-content label {
+    color: white;
+    font-size: 12px;
+	text-align: center;
+}
+
+.card-content-area {
+
+    display: flex;
+    flex-direction: column;
+    padding: 0px 5px 29px 0px;
+}
+
+
+.card-content-area input {
+        height: 30px;
+        border-radius: 50px;
+        background-color: var(--azullogin);
+        border: none;
+        outline: none;
+        border-radius: 100px;
+        text-align: center;
+        color: white;
+        opacity: 70%;
+}
+
+.card-content-area2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 5px 25px 0px;
+}
+
+.card-content-area2 input {
+    height: 30px;
+    border-radius: 50px;
+    background-color: var(--azullogin);
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    text-align: center;
+    color: white;
+    width: 23em;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 17px 7px 1px 1px;
+}
+
+.card-footer .submit{
+    width: 100%;
+    height: 40px;
+    background-color:transparent;
+    border:none;
+    color:#e1e1e1;
+    margin: 10px 0;
+}
+
+.card-footer a {
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+
+input::placeholder {
+    font-size: 10px;
+    color: white;
+}
+
+
+#center {
+    display: flex;
+    height: 100vh;
+    width: 336px;
+    margin-left: 10%;
+    width: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+center, h1{
+    color: white;
+}
+
+center, h4{
+    color: white;
+}
+
+.community_home_search_apps {
+    position: relative;
+    height: 20px;
+    margin-top: 5px;
+    background-color: #2a3f5a;
+    border: 1px solid #000;
+    border-radius: 3px;
+    box-shadow: 1px 1px 0 #45556c;
+    color: #fff;
+    padding: 5px;
+}
+
+
+
+card-footer {
+    border-top: 0px;
+    border-bottom: 0px;
+    border-radius: 50px;
+    border: solid 2px var(--azulclaro);
+    background-color: transparent;
+    color: white;
+    height: 30px
+}
+
+button{
+    border-top: 0px;
+    border-bottom: 0px;
+    border-radius: 50px;
+    border: solid 2px var(--azulclaro);
+    background-color: transparent;
+    /* color: white; */
+    height: 30px
+}
+
+.button_login {
+    background-color: transparent;
+    color:var(--azulclaro);
+    height: 39px;
+} 
+
+.button_logon {
+    background-color: var(--azulbotao);
+    color: rgb(255, 255, 255);
+    height: 2.5em;
+    width: 10em;
+    margin-left: 13em;
+} 
+
+.button_facebook {
+    background-color: var(--amrelo);
+    color: rgb(255, 255, 255);
+    height: 2.5em;
+    width: 10em;
+    margin: 1em
+} 
+
+.button_google{
+    background-color: var(--amrelo);
+    color: rgb(255, 255, 255);
+    height: 2.5em;
+    width: 10em;
+    margin: 1em
+   
+}
+
+.tela-login {
+    border-top: 0px;
+    border-bottom: 0px;
+    border-radius: 50px;
+    border: solid 2px var(--azulclaro);
+    background-color: blu;
+    color: white;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin: 2em
+}
+
+.img_card {
+    width: 200px;
+    height: 143px;
+}

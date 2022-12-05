@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+:root {
+
+--azulescuro: #165394;
+--azultommedio: #3889E0;
+--azulclaro: #59A9FF;
+--amareloescuro:#946E2D;
+--amrelo: #E0A338;
+--azullogin: #72B6FF;
+--azulbotao: #284E51;
+}
+
+html{
+font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    display: block;
+    margin: 0px;
+}
+
+li {
+  list-style:none;
+  padding-left:0;
+    
+}
+
+.liclass{
+  display: inline;
+  margin-right: 10em;
+}
+.menu_li:hover {
+    font-weight: bold;
+    display: inline;
+    margin-right: 10em;
+}
+
+header {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 97.7%;
+    height: 80px;
+    background-color: var(--azulclaro);
+    box-shadow: 0 0 10px black;
+    padding: 0 19px;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  margin: 0px 2px 11px 1px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+buscar{
+    width: 1em;
+    height: 1em
+    
+}
+
+.imgmenu {
+  position: relative;
+  margin: 20px;
+  width: 2.1em;
+  height: 2.1em;
+  margin: 1em 5em 0em 0em;
+}
+
+.logomenu{
+  position: relative;
+  margin: 20px;
+  width: 6.9em;
+  height: 5.5em;
+  margin: 1.6em 9em 0em 0em;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  list-style-type: disc;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 82px;
+  margin: 0px;
+}
+
+#painel {
+  width: 100%;
+  height: 89vh;
+  position: relative;
+  float: left;
+  background-color: var(--azulclaro);
+  margin: 26px 0px 0px 0px;
+  display: flex;
+}
+
+
+#menu {
+  display: flex;
+  width: 21%;
+  height: 73%;
+  padding: 29px 37px 27px 16px;
+  box-shadow: 7px 7px 13px 0px rgb(50 50 50 / 22%);
+  background-color: var(--azulescuro);
+  border-radius: 0px 20px 20px 0px;
+  margin: 0px 80px 0px 0px;
+  background-color: white;
+  flex-direction: column;
+}
+  /* display: flex;
+    /* TESTE CARD */
+
+
+.row {
+  display: flex;
+  margin: 0% 5% 0% 0%;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.card p {
+  color: #a3a5ae;
+  font-size: 16px;
+}
+  
+.image {
+  float: right;
+  max-width: 64px;
+  max-height: 64px;
+}
+
+.p {
+  border-top: 10px solid #779afa;
+}
+
+.img_player{
+  padding: 30px;
+  width: 761px;
+  height: 434px;
+  margin: 0px 0px 0px 38px;
+}
+.cardplayer {
+  border-radius: 20px;
+  box-shadow: 7px 7px 13px 0px rgb(50 50 50 / 22%);
+  background-color: white;
+  margin: 0px 0px 0px 107px;
+  width: 1062px;
+  height: 78%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 10px 0px 10px 47px;
+}
+
+
+.card__progress{
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  margin-top: 5px;
+}
+.area_progress_p {
+  background-image: linear-gradient(to right, #165394 10%, transparent 10%);
+  height: 4px;
+  height: 7px;
+  width: 90%;
+  background-color: #16539459;
+  margin: 10px 4px 3px 8px;
+  padding: 0px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.area_progress_number_p{
+  width: 23px;
+  height: 19px;
+  margin-left: 9px;
+  font-size: 11px;
+  margin: 10px 0px 0px 0px;
+  font-weight: 600;
+  line-height: 1.73;
+  color: #c5d2dc;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+button{
+  border-top: 0px;
+  border-bottom: 0px;
+  border-radius: 50px;
+  border: solid 2px var(--azulclaro);
+  background-color: transparent;
+  /* color: white; */
+  height: 30px;
+  margin: 21px 2px 4px 84px;
+}
